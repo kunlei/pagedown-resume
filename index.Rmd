@@ -27,7 +27,7 @@ links <- c()
 source('parsing_functions.R')
 
 # Load csv with position info
-position_data <- read_csv('positions.csv')
+position_data <- read_csv('content.csv')
 ```
 
 
@@ -61,7 +61,7 @@ Language Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
+  "Java",                  5,
 )
 
 build_skill_bars(skills)
@@ -86,13 +86,10 @@ Kunlei Lian {#title}
 
 
 ```{r}
-intro_text <- "This is Kunlei Lian.
-"
+intro_text <- "Seasoned operations research expert specializing in supply chain optimization. Extensive research and industry experience in various supply chain domains, including scheduling, vehicle routing, inventory control, fleet assignment, truckload optimization, and warehouse profiling. Strong technical skills in Java, CPLEX, SQL, html, CSS, JavaScript and React."
 
 cat(sanitize_links(intro_text))
 ```
-
-
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -102,17 +99,7 @@ print_section(position_data, 'education')
 ```
 
 
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'research_positions')
-```
-
-
-
-Industry Experience {data-icon=suitcase}
+Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -120,27 +107,16 @@ This is a side note
 :::
 
 ```{r}
-print_section(position_data, 'industry_positions')
+print_section(position_data, 'experience')
 ```
 
 <br>
-<br>
-<br>
 
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-::: aside
-Another side node
-:::
-
-
-
-Selected Publications, Posters, and Talks {data-icon=book}
+Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
-print_section(position_data, 'academic_articles')
+print_section(position_data, 'article')
 ```
 
 

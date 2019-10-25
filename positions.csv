@@ -1,7 +1,0 @@
-section,in_resume,title,loc,institution,start,end,description_1,description_2,description_3
-education,TRUE,Ph.D. in Industrial Engineering,University of Arkansas,"Arkansas, USA",2012,2017,Dissertation: service consistency in vehicle routing,NA,
-education,TRUE,M.S. in Industrial Engineering,Huzhong University of Science and Technology,"Hubei, China",2009,2012,Thesis: An agent based model of Diel Vertical Migration patterns of Mysis diluviana,NA,
-education,TRUE,B.S. in Industrial Engineering,Huzhong University of Science and Technology,"Hubei, China",2005,2009,Thesis: An agent based model of Diel Vertical Migration patterns of Mysis diluviana,NA,
-research_positions,TRUE,Research Assistant,Adair Laboratory,University of Vermont,2012,2013,Independently analyzed and constructed statistical models for large data sets pertaining to carbon decomposition rates.,NA,NA
-industry_positions,TRUE,Software Engineering Intern,Conduce,"Carpinteria, CA",2014,2014,Incorporated d3.js to the company's main software platform.,NA,NA
-academic_articles,TRUE,Asymmetric Linkage Disequilibrium: Tools for Dissecting Multiallelic LD,Journal of Human Immunology,N/A,2015,2015,"Authored with Richard Single, Vanja Paunic, Mark Albrecht, and Martin Maiers.",NA,NA
