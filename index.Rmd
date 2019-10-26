@@ -6,7 +6,7 @@ output:
   pagedown::html_resume:
     css: ['css/styles.css', 'resume']
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: true
+    self_contained: false
 ---
 
 ```{r, include=FALSE}
@@ -26,8 +26,6 @@ links <- c()
 
 source('parsing_functions.R')
 
-# Load csv with position info
-position_data <- read_csv('content.csv')
 ```
 
 
@@ -55,19 +53,6 @@ Contact {#contact}
 - <i class="fa fa-link"></i> [kunlei.github.io](http://kunlei.github.io/)
 
 
-Language Skills {#skills}
---------------------------------------------------------------------------------
-
-```{r}
-skills <- tribble(
-  ~skill,               ~level,
-  "Java",                  5,
-)
-
-build_skill_bars(skills)
-```
-
-
 
 
 Disclaimer {#disclaimer}
@@ -84,9 +69,9 @@ Main
 Kunlei Lian {#title}
 --------------------------------------------------------------------------------
 
-
+### Sr. Data Scientist (Operations Research) at Walmart Labs.
 ```{r}
-intro_text <- "Seasoned operations research expert specializing in supply chain optimization. Extensive research and industry experience in various supply chain domains, including scheduling, vehicle routing, inventory control, fleet assignment, truckload optimization, and warehouse profiling. Strong technical skills in Java, CPLEX, SQL, html, CSS, JavaScript and React."
+intro_text <- ""
 
 cat(sanitize_links(intro_text))
 ```
@@ -94,31 +79,147 @@ cat(sanitize_links(intro_text))
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-```{r}
-print_section(position_data, 'education')
-```
+### Ph.D. in Industrial Engineering
+
+University of Arkansas
+
+Arkansas, USA
+
+2017 - 2012
+
+- Studied the impact of improving service consistency in vehicle routing problems using multi-objective heuristic and branch-and-price algorithms.
+
+### M.S. in Industrial Engineering
+
+Huazhong University of Science and Technology
+
+Wuhan, China
+
+2012 - 2009
+
+- Developed heuristic algorithms to solve job shop scheduling and assembly line balancing problems in manufacturing systems.
+
+### B.S. in Industrial Engineering
+
+Huazhong University of Science and Technology
+
+Wuhan, China
+
+2009 - 2005
+
 
 
 Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
+### Sr. Data Scientist (Operations Research)
+
+Walmart Inc.
+
+AR, USA
+
+Present - 2019.01
+
+- Developed a profiling application consisting of frontend UI and backend algorithm to facilitate item slotting decisions within all grocery distribution centers across Walmart U.S.
+- Upgraded legacy optimization engine to support Walmart's ocean procurement process for 2020. Achieved *$30 million* operational cost savings, significant labor hour reduction and improved global supply chain balance and stability.
+
 ::: aside
-This is a side note
+Skills used: Html, CSS, JavaScript, React, Java, SpringBoot, SQL
 :::
 
-```{r}
-print_section(position_data, 'experience')
-```
+### Data Scientist (Operations Research)
 
-<br>
+Walmart Inc.
+
+AR, USA
+
+2019.01 - 2016.08
+
+- Built a column-generation-based optimization engine within a rolling horizon framework to assign drivers to tractors with the objective of maximizing tractor utilization and minimizing driver split-seat. Achieved *$4 million* labor cost savings and *$8 million* operational cost savings annually.
+- Migrated legacy truckload optimization COBOL code to Java, reducing data processing time from 10 minutes to 10 seconds. Developed heuristic algorithms to solve instances with large amount of orders, resulting in saving of 14 trucks daily.
+- Implemented a column-generation-based optimization engine to estimate store-level customer purchase probability based on historical transaction data. Built a MIP engine to decide optimal offer set for each category at store level. 
+
+::: aside
+Skills used: Java, CPLEX, MIP, column generation
+:::
+
+### Global Business Processes Intern
+
+Walmart Inc.
+
+AR, USA
+
+2016.08 - 2016.05
+
+- Worked on implementation and validation of next generation inventory optimization model for Walmart U.S. and achieved 8% improvement over the current system during pilot store testing. Lead data platform migration from Teradata to Hadoop, responsible for data ETL and Hive query implementation.
+
+::: aside
+Skills used: R, SQL, Hive, Shell Scripting
+:::
+
+### Operations Research Analyst Intern
+
+China Railway Siyuan Survey and Design Group CO., LTD.
+
+Wuhan, China
+
+2009.08 - 2009.05
+
+- Implemented a metaheuristic algorithm to identify the optimal maintenance warehouse locations within a railway network.
+
+
+Patents {data-icon=ribbon}
+-------------------------------------------------------------------------------
+
+### Dynamic Data Driven Store Front End Layout Optimization
+
+with Jingying Zhang; Dong Xu; Tyler Nicholas; Jackie Guan; Fan Wang; Shuohao Wu
+
+Filed
+
+- Walmart Inc. has thousands of physical stores and an essential functionality of a store is front end checkout station layout design. This invention aims to recommend an optimal layout design that can be sustainably applied across yearly customer traffic without incurring large line length and long waiting time for Walmart store customers.
+
+
+### GPU-enabled Safety Stock Optimization Engine
+
+with Shuohao Wu, Richard Ulrich, Dong Xu, Jingying Zhang, Clifford Bolinger, Jackie Guan
+
+Filed
+
+- This invention aims to provide a solution on the optimal safety stock level settings across the chain such that the total inventory cost can be reduced, while not affecting the total sales. It leverages simulation and machine learning techniques powered by GPU computation.
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
-```{r}
-print_section(position_data, 'article')
-```
+### An improved multi-directional local search algorithm for the multi-objective consistent vehicle routing problem.
 
+*kunlei Lian*, Ashlea B. Milburn and Ronald L. Rardin
+
+N/A
+
+N/A
+
+IISE Transactions. 2016. 48(10): 975 – 992.
+
+### Applying modified colonial competitive algorithm to solve minimal hitting set problems.
+
+Chuanjun Zhu, Jing Cao, Chaoyong Zhang and *kunlei Lian*
+
+N/A
+
+N/A
+
+China Mechanical Engineering. 2015. 26(07): 917- 923.
+
+### A modified colonial competitive algorithm for the mixed-model U-line balancing and sequencing problem.
+
+*Kunlei Lian*, Chaoyong Zhang, Liang Gao and Xinyu Shao
+
+N/A
+
+N/A
+
+International Journal of Production Research. 2012. 50(18): 5117 – 5131.
 
 
 ```{r}
@@ -129,7 +230,6 @@ Links {data-icon=link}
 --------------------------------------------------------------------------------
 
 <br>
-
 
 ")
   
