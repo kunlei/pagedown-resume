@@ -193,7 +193,7 @@ Publications {data-icon=book}
 
 ### An improved multi-directional local search algorithm for the multi-objective consistent vehicle routing problem.
 
-*kunlei Lian*, Ashlea B. Milburn and Ronald L. Rardin
+*Kunlei Lian*, Ashlea B. Milburn and Ronald L. Rardin
 
 N/A
 
@@ -203,7 +203,7 @@ IISE Transactions. 2016. 48(10): 975 – 992.
 
 ### Applying modified colonial competitive algorithm to solve minimal hitting set problems.
 
-Chuanjun Zhu, Jing Cao, Chaoyong Zhang and *kunlei Lian*
+Chuanjun Zhu, Jing Cao, Chaoyong Zhang and *Kunlei Lian*
 
 N/A
 
