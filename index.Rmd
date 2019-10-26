@@ -188,7 +188,7 @@ Filed
 
 - This invention aims to provide a solution on the optimal safety stock level settings across the chain such that the total inventory cost can be reduced, while not affecting the total sales. It leverages simulation and machine learning techniques powered by GPU computation.
 
-Publications {data-icon=book}
+Journal Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
 ### An improved multi-directional local search algorithm for the multi-objective consistent vehicle routing problem.
@@ -221,6 +221,79 @@ N/A
 
 International Journal of Production Research. 2012. 50(18): 5117 – 5131.
 
+### Integrated process planning and scheduling using an imperialist competitive algorithm.
+
+*Kunlei Lian*, Chaoyong Zhang, Liang Gao and Xinyu Li
+
+N/A
+
+N/A
+
+International Journal of Production Research. 2012. 50(15): 4326 – 4343.
+
+### Optimization of process planning with various flexibilities using an imperialist competitive algorithm.
+
+*Kunlei Lian*, Chaoyong Zhang, Xinyu Shao and Liang Gao
+
+N/A
+
+N/A
+
+International Journal of Advanced Manufacturing Technology. 2012. 59(5-8): 815 – 828.
+
+
+### A multi-dimensional tabu search algorithm for the optimization of process planning.
+
+*Kunlei Lian*, Chaoyong Zhang, Xinyu Shao and Yaohui Zeng
+
+N/A
+
+N/A
+
+Science China Technological Sciences. 2011. 54(12): 3211 – 3219.
+
+### A cooperative simulated annealing algorithm for the optimization of process planning.
+
+*Kunlei Lian*, Chaoyong Zhang, Liang Gao, Shaotan Xu and Yi Sun
+
+N/A
+
+N/A
+
+Advanced Materials Research. 2011. 181: 489 – 494.
+
+### An adaptive ant colony optimization for solving assembly line balancing problem.
+
+Fuping Deng, Chaoyong Zhang, *Kunlei Lian* and Shaotan Xu
+
+N/A
+
+N/A
+
+China Mechanical Engineering. 2011. 22(16): 1949 - 1953, 1959.
+
+
+### Application of bee colony optimization algorithm in warehouse facility location of rail transit network.
+
+Kun Zhang, Hui Liu, *Kunlei Lian*
+
+N/A
+
+N/A
+
+Modern Urban Transit. 2011. 1:63-66.
+
+
+### An improved genetic algorithm for multi-objective dynamic scheduling optimization.
+
+Kunlei Lian, Chaoyong Zhang, Liang Gao and Chaoyang Zhang, 
+
+N/A
+
+N/A
+
+
+Machine Design and Manufacturing Engineering. 2010. 3:13 - 17, 21
 
 ```{r}
 if(PDF_EXPORT){
