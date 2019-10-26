@@ -173,18 +173,23 @@ Patents {data-icon=ribbon}
 
 ### Dynamic Data Driven Store Front End Layout Optimization
 
-with Jingying Zhang; Dong Xu; Tyler Nicholas; Jackie Guan; Fan Wang; Shuohao Wu
+Filed with Jingying Zhang; Dong Xu; Tyler Nicholas; Jackie Guan; Fan Wang; Shuohao Wu
 
-Filed
+N/A
+
+N/A
 
 - Walmart Inc. has thousands of physical stores and an essential functionality of a store is front end checkout station layout design. This invention aims to recommend an optimal layout design that can be sustainably applied across yearly customer traffic without incurring large line length and long waiting time for Walmart store customers.
 
 
 ### GPU-enabled Safety Stock Optimization Engine
 
-with Shuohao Wu, Richard Ulrich, Dong Xu, Jingying Zhang, Clifford Bolinger, Jackie Guan
+Filed with Shuohao Wu, Richard Ulrich, Dong Xu, Jingying Zhang, Clifford Bolinger, Jackie Guan
 
-Filed
+N/A
+
+N/A
+
 
 - This invention aims to provide a solution on the optimal safety stock level settings across the chain such that the total inventory cost can be reduced, while not affecting the total sales. It leverages simulation and machine learning techniques powered by GPU computation.
 
@@ -294,6 +299,244 @@ N/A
 
 
 Machine Design and Manufacturing Engineering. 2010. 3:13 - 17, 21
+
+Conference Publications {data-icon=globe}
+--------------------------------------------------------------------------------
+
+### A hybrid honey-bees mating optimization algorithm for assembly sequence planning problem.
+
+Biao Yuan, Chaoyong Zhang, *Kunlei Lian* and Xinyu Shao
+
+N/A
+
+N/A
+
+In: Proceedings of the 8th International Conference on Natural Computation, May 29-31, 2012. 1135-1140
+
+### Single row facility layout problem using an imperialist competitive algorithm.
+
+*Kunlei Lian*, Chaoyong Zhang, Liang Gao and Xinyu Shao
+
+N/A
+
+N/A
+
+
+In: Proceedings of the 41st International Conference on Computers & Industrial Engineering, October 23-26, 2011.
+
+### New high performing hybrid particle swarm optimization for permutation flow shop scheduling problem with minimization of makespan.
+
+Yi Sun, Min Liu, Chaoyong Zhang, Liang Gao and *Kunlei Lian*
+
+N/A
+
+N/A
+
+In: IEEE International Conference in Industrial Engineering and Engineering Management, December 7, 2010.
+
+### An effective hybrid genetic simulated annealing algorithm for process planning problem.
+
+*Kunlei Lian*, Chaoyong Zhang, Xinyu Li and Liang Gao
+
+N/A
+
+N/A
+
+In: Proceedings of the 5th International Conference on Natural Computation, August 14 – 16, 2009.
+
+
+Talks {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+### Study on a multi-objective periodic vehicle routing problem with service consistency
+
+*Kunlei Lian*, Ashlea B. Milburn and Ronald L. Rardin
+
+Philadelphia, PA
+
+2015
+
+- INFORMS Annual Meeting, (November 1 -- 4)
+
+### Study on a multi-objective periodic vehicle routing problem with service consistency
+
+*Kunlei Lian*, Ashlea B. Milburn and Ronald L. Rardin
+
+Nashville, Tennessee
+
+2015
+
+- IIE Annual Conference & Expo (May 30 -- June 2)
+
+### Vehicle routing problem with service consistency: a multi-objective approach
+
+*Kunlei Lian*, Ashlea B. Milburn and Ronald L. Rardin
+
+San Francisco, California
+
+2014
+
+- INFORMS Annual Meeting,  (November 9 -- 12)
+
+### Study on home health care nursing routing problem
+
+*Kunlei Lian*, Ashlea B. Milburn and Ronald L. Rardin
+
+Montreal, Canada
+
+2014
+
+- IIE Annual Conference & Expo,  (May 31 -- June 3)
+
+### Patient-focused considerations in	home health nursing routing problems
+
+*Kunlei Lian*, Ashlea B. Milburn and Ronald L. Rardin
+
+Minneapolis, Minnesota
+
+2013
+
+- INFORMS Annual Meeting,  (October 6 -- 9)
+
+Journal Review {data-icon=binoculars}
+--------------------------------------------------------------------------------
+
+### Applied Soft Computing
+
+number of reviews completed: 3
+
+N/A
+
+N/A
+
+### Expert Systems with Applications
+
+number of reviews completed: 1
+
+N/A
+
+N/A
+
+
+### International Journal of Production Research
+
+number of reviews completed: 9
+
+N/A
+
+N/A
+
+### Journal of Heuristics
+
+number of reviews completed: 3
+
+N/A
+
+N/A
+
+###  Journal of Industrial and Production Engineering
+
+number of reviews completed: 3
+
+N/A
+
+N/A
+
+
+### Journal of Industrial Engineering International
+
+number of reviews completed: 14
+
+N/A
+
+N/A
+
+
+### Mathematical Problems in Engineering
+
+number of reviews completed: 1
+
+N/A
+
+N/A
+
+### Swarm and Evolutionary Computation
+
+number of reviews completed: 2
+
+N/A
+
+N/A
+
+
+### European Journal of Operational Research
+
+number of reviews completed: 1
+
+N/A
+
+N/A
+
+Awards {data-icon=award}
+-------------------------------------------------------------
+
+### IIE E.J. Sierleja Memorial Fellowship
+
+N/A
+
+University of Arkansas
+
+2015
+
+### Graduate Fellowship
+
+N/A
+
+Huazhong University of Science and Technology
+
+2009
+
+### Academic Achievement Award
+
+N/A
+
+Huazhong University of Science and Technology
+
+2009
+
+### Master’s Thesis Award
+
+N/A
+
+Huazhong University of Science and Technology
+
+2012
+
+### Outstanding Graduate Student Award
+
+N/A
+
+Huazhong University of Science and Technology
+
+2009
+  
+### Bachelor’s Thesis Award
+
+N/A
+
+Huazhong University of Science and Technology
+
+2009
+
+### Meritorious Winner of Mathematical Contest in Modeling
+
+N/A
+
+MCM: The Mathematical Contest in Modeling
+
+2007
+
+
+
 
 ```{r}
 if(PDF_EXPORT){
