@@ -1,5 +1,5 @@
 ---
-title: "Kunlei Lian's CV"
+title: "Kunlei Lian's Resume"
 author: Kunlei Lian
 date: "`r Sys.Date()`"
 output:
@@ -48,7 +48,7 @@ Aside
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> kunlei1987@gmail.com
+- <i class="fa fa-envelope"></i> kunlei.lian@gmail.com
 - <i class="fa fa-github"></i> github.com/kunlei
 - <i class="fa fa-link"></i> [kunlei.github.io](http://kunlei.github.io/)
 
