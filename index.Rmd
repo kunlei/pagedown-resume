@@ -69,7 +69,7 @@ Main
 Kunlei Lian {#title}
 --------------------------------------------------------------------------------
 
-### Sr. Data Scientist (Operations Research) at Walmart Labs.
+### Staff Data Scientist (Operations Research) at Walmart Labs.
 ```{r}
 intro_text <- ""
 
@@ -112,13 +112,28 @@ Wuhan, China
 Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
-### Sr. Data Scientist (Operations Research)
+### Staff Data Scientist -- Operations Research
 
 Walmart Inc.
 
 AR, USA
 
-Present - 2019.01
+Present - 2020.01
+
+- Optimization engine design and development.
+
+::: aside
+Skills used: C++, Java
+:::
+
+
+### Sr. Data Scientist -- Operations Research
+
+Walmart Inc.
+
+AR, USA
+
+2020.01 - 2019.01
 
 - Developed a profiling application consisting of frontend UI and backend algorithm to facilitate item slotting decisions within all grocery distribution centers across Walmart U.S.
 - Upgraded legacy optimization engine to support Walmart's ocean procurement process for 2020. Achieved *$30 million* operational cost savings, significant labor hour reduction and improved global supply chain balance and stability.
@@ -127,7 +142,7 @@ Present - 2019.01
 Skills used: Html, CSS, JavaScript, React, Java, SpringBoot, SQL
 :::
 
-### Data Scientist (Operations Research)
+### Data Scientist -- Operations Research
 
 Walmart Inc.
 
