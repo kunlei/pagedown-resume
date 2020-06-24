@@ -318,6 +318,16 @@ Machine Design and Manufacturing Engineering. 2010. 3:13 - 17, 21
 Conference Publications {data-icon=globe}
 --------------------------------------------------------------------------------
 
+### A Hybrid Colonial Competitive Algorithm for the Integrated Process Planning and Scheduling Problem.
+
+Yibo Wei, Yuxiang Lian, Leilei Meng, Yifeng Wang, Chaoyong Zhang, *Kunlei Lian*
+
+N/A
+
+N/A
+
+In: 2020 International Conference on Urban Engineering and Management Science
+
 ### A hybrid honey-bees mating optimization algorithm for assembly sequence planning problem.
 
 Biao Yuan, Chaoyong Zhang, *Kunlei Lian* and Xinyu Shao
