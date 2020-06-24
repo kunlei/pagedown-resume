@@ -186,17 +186,6 @@ Wuhan, China
 Patents {data-icon=ribbon}
 -------------------------------------------------------------------------------
 
-### Dynamic Data Driven Store Front End Layout Optimization
-
-Filed with Jingying Zhang; Dong Xu; Tyler Nicholas; Jackie Guan; Fan Wang; Shuohao Wu
-
-N/A
-
-N/A
-
-- Walmart Inc. has thousands of physical stores and an essential functionality of a store is front end checkout station layout design. This invention aims to recommend an optimal layout design that can be sustainably applied across yearly customer traffic without incurring large line length and long waiting time for Walmart store customers.
-
-
 ### GPU-enabled Safety Stock Optimization Engine
 
 Filed with Shuohao Wu, Richard Ulrich, Dong Xu, Jingying Zhang, Clifford Bolinger, Jackie Guan
