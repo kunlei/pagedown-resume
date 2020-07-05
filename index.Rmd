@@ -87,7 +87,9 @@ Arkansas, USA
 
 2017 - 2012
 
-- Studied the impact of improving service consistency in vehicle routing problems using multi-objective heuristic and branch-and-price algorithms.
+- Proposed an improved algorithm framework based on multi-directional local search to approximate the Pareto frontier of multi-objective optimization problems. 
+- Studied the impact of improving service consistency in vehicle routing problems with repeatable customer demands over multiple days.
+- Suggested a branch-and-price algorithm to solve the consistent vehicle routing problem.
 
 ### M.S. in Industrial Engineering
 
@@ -97,7 +99,8 @@ Wuhan, China
 
 2012 - 2009
 
-- Developed heuristic algorithms to solve job shop scheduling and assembly line balancing problems in manufacturing systems.
+- Designed a tabu search and imperialist competitive algorithm to solve the process planning optimization problem in manufacturing systems. 
+- Developed a imperialist competitive algorithm to address the mixed-model U-shaped assembly line balancing and sequencing problem.
 
 ### B.S. in Industrial Engineering
 
@@ -120,7 +123,8 @@ AR, USA
 
 Present - 2020.01
 
-- Optimization engine design and development.
+- Supported the ocean procurement business to determine the optimal set of carriers on hundreds of lanes in order to minimizing total costs, achieved approximately *$90 million* cost savings for fiscal year 2021.
+- Designed and developed an optimization engine based on column generation and mixed-integer programming to solve a very large scale transportation optimization problem on Walmart network.
 
 ::: aside
 Skills used: C++, Java
