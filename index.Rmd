@@ -49,8 +49,9 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> kunlei.lian@gmail.com
-- <i class="fa fa-github"></i> github.com/kunlei
+- <i class="fa fa-github"></i> [github.com/kunlei](github.com/kunlei)
 - <i class="fa fa-link"></i> [kunlei.github.io](http://kunlei.github.io/)
+- <i class="fa fa-google" aria-hidden="true"></i> [google scholar](https://scholar.google.com/citations?user=beuQ5RsAAAAJ&hl=en)
 
 
 
@@ -203,6 +204,46 @@ N/A
 
 Journal Publications {data-icon=book}
 --------------------------------------------------------------------------------
+
+### Dynamic flexible job shop scheduling method based on improved gene expression programming
+
+Chunjiang Zhang, Yin Zhou, Kunkun Peng, Xinyu Li, Suyan Zhang, *Kunlei Lian*
+
+N/A
+
+N/A
+
+Measurement and Control. 2020. 
+
+### A hybrid algorithm for the static bike-sharing re-positioning problem based on an effective clustering strategy
+
+Chang Lv, Chaoyong Zhang, *Kunlei Lian*, Yaping Ren, Leilei Meng
+
+N/A
+
+N/A
+
+Transportation Research, Part B. 2020.
+
+### Digital twin for cutting tool: modeling, service and application strategy
+
+Yang Xie, *Kunlei Lian*, Qiong Liu, Chaoyong Zhang
+
+N/A
+
+N/A
+
+Journal of Manufacturing Systems. 2020.
+
+### A hybrid colonial competitive algorithm for the integrated process planning and scheduling problem
+
+Yuxiang Lian, Leilei Meng, Yifeng Wang, Chaoyong Zhang, *Kunlei Lian*, Yibo Wei
+
+N/A
+
+N/A
+
+2020 International Conference on Urban Engineering and Management Science
 
 ### An improved multi-directional local search algorithm for the multi-objective consistent vehicle routing problem.
 
