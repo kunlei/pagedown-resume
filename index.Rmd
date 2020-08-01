@@ -49,7 +49,7 @@ Contact {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> kunlei.lian@gmail.com
-- <i class="fa fa-github"></i> [github.com/kunlei](github.com/kunlei)
+- <i class="fa fa-github"></i> [github.com/kunlei](http://github.com/kunlei)
 - <i class="fa fa-link"></i> [kunlei.github.io](http://kunlei.github.io/)
 - <i class="fa fa-google" aria-hidden="true"></i> [google scholar](https://scholar.google.com/citations?user=beuQ5RsAAAAJ&hl=en)
 
@@ -101,7 +101,7 @@ Wuhan, China
 2012 - 2009
 
 - Designed a tabu search and imperialist competitive algorithm to solve the process planning optimization problem in manufacturing systems. 
-- Developed a imperialist competitive algorithm to address the mixed-model U-shaped assembly line balancing and sequencing problem.
+- Developed an imperialist competitive algorithm to address the mixed-model U-shaped assembly line balancing and sequencing problem.
 
 ### B.S. in Industrial Engineering
 
@@ -124,7 +124,7 @@ AR, USA
 
 Present - 2020.01
 
-- Supported the ocean procurement business to determine the optimal set of carriers on hundreds of lanes in order to minimizing total costs, achieved approximately *$90 million* cost savings for fiscal year 2021.
+- Supported the ocean procurement business to determine the optimal set of carriers on hundreds of lanes in order to minimize total transportation costs, achieved approximately *$90 million* cost savings for fiscal year 2021.
 - Designed and developed an optimization engine based on column generation and mixed-integer programming to solve a very large scale transportation optimization problem on Walmart network.
 
 ::: aside
@@ -140,8 +140,9 @@ AR, USA
 
 2020.01 - 2019.01
 
-- Developed a profiling application consisting of frontend UI and backend algorithm to facilitate item slotting decisions within all grocery distribution centers across Walmart U.S.
-- Upgraded legacy optimization engine to support Walmart's ocean procurement process for 2020. Achieved *$30 million* operational cost savings, significant labor hour reduction and improved global supply chain balance and stability.
+- Designed and developed a profiling application prototype supporting grocery distribution centers to achieve optimal item assignments to slots. Acquired basic knowledge of frontend/backend development.
+- Upgraded legacy MIP-based optimization engine to identify optimal carriers and load quantities for Walmart’s ocean procurement process
+in fiscal year 2020. Improved modeling capability and constraint flexibility to incorporate operational and strategic considerations. Facilitated managerial decision making by providing onsite optimization support throughout hundreds of bidding cycles. Achieved *$30 million* operational cost savings, significant labor hour reduction and improved company global supply chain balance and stability.
 
 ::: aside
 Skills used: Html, CSS, JavaScript, React, Java, SpringBoot, SQL

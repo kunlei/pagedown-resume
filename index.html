@@ -7,16 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="author" content="Kunlei Lian" />
-    <meta name="date" content="2020-07-23" />
+    <meta name="date" content="2020-07-31" />
     <title>Kunlei Lian’s Resume</title>
 
     
         <link href="index_files/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
     <link href="index_files/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-    <link href="index_files/paged-0.6/css/resume.css" rel="stylesheet" />
-    <script src="index_files/paged-0.6/js/config.js"></script>
-    <script src="index_files/paged-0.6/js/paged.js"></script>
-    <script src="index_files/paged-0.6/js/hooks.js"></script>
+    <link href="index_files/paged-0.10/css/resume.css" rel="stylesheet" />
+    <script src="index_files/paged-0.10/js/config.js"></script>
+    <script src="index_files/paged-0.10/js/paged.js"></script>
+    <script src="index_files/paged-0.10/js/hooks.js"></script>
+    <script src="index_files/accessible-code-block-0.0.1/empty-anchor.js"></script>
     
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
     
@@ -29,14 +30,14 @@
 <h2>Contact</h2>
 <ul>
 <li><i class="fa fa-envelope"></i> <a href="mailto:kunlei.lian@gmail.com" class="email">kunlei.lian@gmail.com</a></li>
-<li><i class="fa fa-github"></i> <a href="github.com/kunlei">github.com/kunlei</a></li>
+<li><i class="fa fa-github"></i> <a href="http://github.com/kunlei">github.com/kunlei</a></li>
 <li><i class="fa fa-link"></i> <a href="http://kunlei.github.io/">kunlei.github.io</a></li>
 <li><i class="fa fa-google" aria-hidden="true"></i> <a href="https://scholar.google.com/citations?user=beuQ5RsAAAAJ&amp;hl=en">google scholar</a></li>
 </ul>
 </div>
 <div id="disclaimer" class="section level2">
 <h2>Disclaimer</h2>
-<p>Last updated on 2020-07-23.</p>
+<p>Last updated on 2020-07-31.</p>
 </div>
 </div>
 <div id="main" class="section level1">
@@ -67,7 +68,7 @@
 <p>2012 - 2009</p>
 <ul>
 <li>Designed a tabu search and imperialist competitive algorithm to solve the process planning optimization problem in manufacturing systems.</li>
-<li>Developed a imperialist competitive algorithm to address the mixed-model U-shaped assembly line balancing and sequencing problem.</li>
+<li>Developed an imperialist competitive algorithm to address the mixed-model U-shaped assembly line balancing and sequencing problem.</li>
 </ul>
 </div>
 <div id="b.s.-in-industrial-engineering" class="section level3">
@@ -85,7 +86,7 @@
 <p>AR, USA</p>
 <p>Present - 2020.01</p>
 <ul>
-<li>Supported the ocean procurement business to determine the optimal set of carriers on hundreds of lanes in order to minimizing total costs, achieved approximately <em>$90 million</em> cost savings for fiscal year 2021.</li>
+<li>Supported the ocean procurement business to determine the optimal set of carriers on hundreds of lanes in order to minimize total transportation costs, achieved approximately <em>$90 million</em> cost savings for fiscal year 2021.</li>
 <li>Designed and developed an optimization engine based on column generation and mixed-integer programming to solve a very large scale transportation optimization problem on Walmart network.</li>
 </ul>
 <div class="aside">
@@ -98,8 +99,9 @@
 <p>AR, USA</p>
 <p>2020.01 - 2019.01</p>
 <ul>
-<li>Developed a profiling application consisting of frontend UI and backend algorithm to facilitate item slotting decisions within all grocery distribution centers across Walmart U.S.</li>
-<li>Upgraded legacy optimization engine to support Walmart’s ocean procurement process for 2020. Achieved <em>$30 million</em> operational cost savings, significant labor hour reduction and improved global supply chain balance and stability.</li>
+<li>Designed and developed a profiling application prototype supporting grocery distribution centers to achieve optimal item assignments to slots. Acquired basic knowledge of frontend/backend development.</li>
+<li>Upgraded legacy MIP-based optimization engine to identify optimal carriers and load quantities for Walmart’s ocean procurement process
+in fiscal year 2020. Improved modeling capability and constraint flexibility to incorporate operational and strategic considerations. Facilitated managerial decision making by providing onsite optimization support throughout hundreds of bidding cycles. Achieved <em>$30 million</em> operational cost savings, significant labor hour reduction and improved company global supply chain balance and stability.</li>
 </ul>
 <div class="aside">
 <p>Skills used: Html, CSS, JavaScript, React, Java, SpringBoot, SQL</p>
@@ -471,8 +473,11 @@
     if (i === 0 && el.id === 'title') continue;
     el.className += ' main-block';
     if (el.dataset['concise']) el.className += ' concise';
-    s = el.dataset['icon'] || 'bookmark';
-    el.firstElementChild.insertBefore(create_el('i', 'fa fa-' + s), el.firstElementChild.firstChild);
+    // if there is no icon, add an icon:
+    if (el.firstElementChild.firstChild && el.firstElementChild.firstChild.nodeName !== 'I') {
+      s = el.dataset['icon'] || 'bookmark';
+      el.firstElementChild.insertBefore(create_el('i', 'fa fa-' + s), el.firstElementChild.firstChild);
+    }
   }
 
   // tweak class names of blocks in sections
