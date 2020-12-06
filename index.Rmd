@@ -48,12 +48,15 @@ Aside
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> kunlei.lian@gmail.com
+- <i class="fa fa-envelope"></i> kunlei1987@gmail.com
 - <i class="fa fa-github"></i> [github.com/kunlei](http://github.com/kunlei)
 - <i class="fa fa-link"></i> [kunlei.github.io](http://kunlei.github.io/)
 - <i class="fa fa-google" aria-hidden="true"></i> [google scholar](https://scholar.google.com/citations?user=beuQ5RsAAAAJ&hl=en)
 
 
+```{r}
+cat("[<i class='fas fa-download'></i> Download the resume as PDF](https://github.com/kunlei/pagedown-resume/raw/master/Resume - Kunlei Lian.pdf)")
+```
 
 
 Disclaimer {#disclaimer}
@@ -70,7 +73,7 @@ Main
 Kunlei Lian {#title}
 --------------------------------------------------------------------------------
 
-### Staff Data Scientist (Operations Research) at Walmart Labs.
+### Staff Data Scientist (Operations Research) at Walmart Global Technology
 ```{r}
 intro_text <- ""
 
@@ -88,9 +91,9 @@ Arkansas, USA
 
 2017 - 2012
 
-- Proposed an improved algorithm framework based on multi-directional local search to approximate the Pareto frontier of multi-objective optimization problems. 
-- Studied the impact of improving service consistency in vehicle routing problems with repeatable customer demands over multiple days.
-- Suggested a branch-and-price algorithm to solve the consistent vehicle routing problem.
+- Proposed an improved algorithm framework based on multi-directional local search to approximate the Pareto frontier of multi-objective optimization problems and applied it to solve the multi-objective consistent vehicle routing problems.
+- Studied the impact of improving service consistency on transportation costs in vehicle routing problems with repeatable customer demands using a large neighborhood search heuristic.
+- Suggested a branch-and-price algorithm to solve the consistent vehicle routing problem to minimize traveling costs.
 
 ### M.S. in Industrial Engineering
 
@@ -100,8 +103,9 @@ Wuhan, China
 
 2012 - 2009
 
-- Designed a tabu search and imperialist competitive algorithm to solve the process planning optimization problem in manufacturing systems. 
+- Designed a tabu search and imperialist competitive algorithm to solve the process planning optimization problem.
 - Developed an imperialist competitive algorithm to address the mixed-model U-shaped assembly line balancing and sequencing problem.
+- Proposed an improved imperialist competitive algorithm to solve the integrated process planning and scheduling problem.
 
 ### B.S. in Industrial Engineering
 
@@ -110,6 +114,8 @@ Huazhong University of Science and Technology
 Wuhan, China
 
 2009 - 2005
+
+- Implemented a hybrid genetic algorithm and simulated annealing to identify the best machining operations sequence for prismatic parts. (Outstanding Bachelor's Thesis Award)
 
 
 
@@ -124,9 +130,9 @@ AR, USA
 
 Present - 2020.01
 
-- Supported the ocean procurement business to determine the optimal set of carriers on hundreds of lanes in order to minimize total transportation costs, achieved approximately *$90 million* cost savings for fiscal year 2021.
-- Designed and developed an optimization engine based on column generation and mixed-integer programming to solve a very large scale transportation optimization problem on Walmart network.
-- Designed virtual pallet building algorithms to support distribution center order filling operations.
+- Supported the global logistics team to determine the optimal ocean carriers that minimize total transportation costs, achieved approximately *$90 million* cost savings for fiscal year 2021.
+- Designed and developed a column generation based distributed optimization engine to solve the load consolidation problem for Walmart's inbound network.
+- Implemented constructive heuristic algorithms to solve the virtual pallet building problem in grocery distribution centers.
 
 ::: aside
 Skills used: C++, Java
@@ -203,17 +209,45 @@ N/A
 
 
 - This invention aims to provide a solution on the optimal safety stock level settings across the chain such that the total inventory cost can be reduced, while not affecting the total sales. It leverages simulation and machine learning techniques powered by GPU computation.
+- The model is a stochastic optimization where it tries to minimize the total cost and solve for the associated optimal safety stock settings. The randomness comes from the variance in demand for each item at each store in each day. We proposed and developed a Monte Carlo Simulation-based optimization model. We employ GPU based computing module to significantly enhance the computational efficiency and a set of machine learning models to leverage the historical data patterns with impact to safety stock to further boost result accuracy.
 
-Journal Publications {data-icon=book}
+Publications {data-icon=book}
 --------------------------------------------------------------------------------
 
-### Dynamic flexible job shop scheduling method based on improved gene expression programming
+### Service consistency in vehicle routing
 
-Chunjiang Zhang, Yin Zhou, Kunkun Peng, Xinyu Li, Suyan Zhang, *Kunlei Lian*
+Kunlei Lian
+
+University of Arkansas
+
+2017
+
+Ph.D. Dissertation
+
+### Colonial competitive algorithm and its applications in optimization of discrete manufacturing systems
+
+Kunlei Lian
+
+Huazhong University of Science and Technology
+
+2012
+
+M.S. Thesis
+
+
+
+### A discrete whale swarm algorithm for a hybrid flow-shop scheduling problem with limited buffers
+
+Chunjiang Zhang, Jiawei Tan, Kunkun Peng, Liang Gao, Weiming Shen, *Kunlei Lian*
 
 N/A
 
 N/A
+
+Robotics and Computer-Integrated Manufacturing, 2020
+
+
+
 
 Measurement and Control. 2020. 
 
@@ -225,7 +259,10 @@ N/A
 
 N/A
 
-Transportation Research, Part B. 2020.
+Transportation Research, Part B, 2020.
+
+
+
 
 ### Digital twin for cutting tool: modeling, service and application strategy
 
@@ -237,15 +274,21 @@ N/A
 
 Journal of Manufacturing Systems. 2020.
 
-### A hybrid colonial competitive algorithm for the integrated process planning and scheduling problem
 
-Yuxiang Lian, Leilei Meng, Yifeng Wang, Chaoyong Zhang, *Kunlei Lian*, Yibo Wei
+
+### Dynamic flexible job shop scheduling method based on improved gene expression programming
+
+Chunjiang Zhang, Yin Zhou, Kunkun Peng, Xinyu Li, Suyan Zhang, *Kunlei Lian*
 
 N/A
 
 N/A
 
-2020 International Conference on Urban Engineering and Management Science
+Measurement and Control, 2020
+
+
+
+
 
 ### An improved multi-directional local search algorithm for the multi-objective consistent vehicle routing problem.
 
@@ -257,6 +300,8 @@ N/A
 
 IISE Transactions. 2016. 48(10): 975 – 992.
 
+
+
 ### Applying modified colonial competitive algorithm to solve minimal hitting set problems.
 
 Chuanjun Zhu, Jing Cao, Chaoyong Zhang and *Kunlei Lian*
@@ -266,6 +311,9 @@ N/A
 N/A
 
 China Mechanical Engineering. 2015. 26(07): 917- 923.
+
+
+
 
 ### A modified colonial competitive algorithm for the mixed-model U-line balancing and sequencing problem.
 
@@ -277,6 +325,10 @@ N/A
 
 International Journal of Production Research. 2012. 50(18): 5117 – 5131.
 
+
+
+
+
 ### Integrated process planning and scheduling using an imperialist competitive algorithm.
 
 *Kunlei Lian*, Chaoyong Zhang, Liang Gao and Xinyu Li
@@ -286,6 +338,9 @@ N/A
 N/A
 
 International Journal of Production Research. 2012. 50(15): 4326 – 4343.
+
+
+
 
 ### Optimization of process planning with various flexibilities using an imperialist competitive algorithm.
 
@@ -298,6 +353,8 @@ N/A
 International Journal of Advanced Manufacturing Technology. 2012. 59(5-8): 815 – 828.
 
 
+
+
 ### A multi-dimensional tabu search algorithm for the optimization of process planning.
 
 *Kunlei Lian*, Chaoyong Zhang, Xinyu Shao and Yaohui Zeng
@@ -308,25 +365,7 @@ N/A
 
 Science China Technological Sciences. 2011. 54(12): 3211 – 3219.
 
-### A cooperative simulated annealing algorithm for the optimization of process planning.
 
-*Kunlei Lian*, Chaoyong Zhang, Liang Gao, Shaotan Xu and Yi Sun
-
-N/A
-
-N/A
-
-Advanced Materials Research. 2011. 181: 489 – 494.
-
-### An adaptive ant colony optimization for solving assembly line balancing problem.
-
-Fuping Deng, Chaoyong Zhang, *Kunlei Lian* and Shaotan Xu
-
-N/A
-
-N/A
-
-China Mechanical Engineering. 2011. 22(16): 1949 - 1953, 1959.
 
 
 ### Application of bee colony optimization algorithm in warehouse facility location of rail transit network.
@@ -340,6 +379,37 @@ N/A
 Modern Urban Transit. 2011. 1:63-66.
 
 
+
+
+
+### An adaptive ant colony optimization for solving assembly line balancing problem.
+
+Fuping Deng, Chaoyong Zhang, *Kunlei Lian* and Shaotan Xu
+
+N/A
+
+N/A
+
+China Mechanical Engineering. 2011. 22(16): 1949 - 1953, 1959.
+
+
+
+
+### A cooperative simulated annealing algorithm for the optimization of process planning.
+
+*Kunlei Lian*, Chaoyong Zhang, Liang Gao, Shaotan Xu and Yi Sun
+
+N/A
+
+N/A
+
+Advanced Materials Research. 2011. 181: 489 – 494.
+
+
+
+
+
+
 ### An improved genetic algorithm for multi-objective dynamic scheduling optimization.
 
 Kunlei Lian, Chaoyong Zhang, Liang Gao and Chaoyang Zhang, 
@@ -348,21 +418,39 @@ N/A
 
 N/A
 
-
 Machine Design and Manufacturing Engineering. 2010. 3:13 - 17, 21
+
+
+
+
 
 Conference Publications {data-icon=globe}
 --------------------------------------------------------------------------------
+### A hybrid variable neighborhood search algorithm based on grouping strategies for the static bike sharing re-positioning problem.
+
+Chang Lv, Chaoyong Zhang, and *Kunlei Lian*
+
+N/A
+
+N/A
+
+In 2020 International Conference on Urban Engineering and Management Science (ICUEMS), pp. 454-459. IEEE, 2020.
+
+
+
 
 ### A Hybrid Colonial Competitive Algorithm for the Integrated Process Planning and Scheduling Problem.
 
-Yibo Wei, Yuxiang Lian, Leilei Meng, Yifeng Wang, Chaoyong Zhang, *Kunlei Lian*
+Yuxiang Lian, Leilei Meng, Yifeng Wang, Chaoyong Zhang, *Kunlei Lian* and Yibo Wei
 
 N/A
 
 N/A
 
 In: 2020 International Conference on Urban Engineering and Management Science
+
+
+
 
 ### A hybrid honey-bees mating optimization algorithm for assembly sequence planning problem.
 
@@ -373,6 +461,8 @@ N/A
 N/A
 
 In: Proceedings of the 8th International Conference on Natural Computation, May 29-31, 2012. 1135-1140
+
+
 
 ### Single row facility layout problem using an imperialist competitive algorithm.
 
@@ -385,6 +475,9 @@ N/A
 
 In: Proceedings of the 41st International Conference on Computers & Industrial Engineering, October 23-26, 2011.
 
+
+
+
 ### New high performing hybrid particle swarm optimization for permutation flow shop scheduling problem with minimization of makespan.
 
 Yi Sun, Min Liu, Chaoyong Zhang, Liang Gao and *Kunlei Lian*
@@ -394,6 +487,8 @@ N/A
 N/A
 
 In: IEEE International Conference in Industrial Engineering and Engineering Management, December 7, 2010.
+
+
 
 ### An effective hybrid genetic simulated annealing algorithm for process planning problem.
 
@@ -461,47 +556,6 @@ Minneapolis, Minnesota
 Journal Review {data-icon=binoculars}
 --------------------------------------------------------------------------------
 
-### Applied Soft Computing
-
-number of reviews completed: 3
-
-N/A
-
-N/A
-
-### Expert Systems with Applications
-
-number of reviews completed: 1
-
-N/A
-
-N/A
-
-
-### International Journal of Production Research
-
-number of reviews completed: 9
-
-N/A
-
-N/A
-
-### Journal of Heuristics
-
-number of reviews completed: 3
-
-N/A
-
-N/A
-
-###  Journal of Industrial and Production Engineering
-
-number of reviews completed: 3
-
-N/A
-
-N/A
-
 
 ### Journal of Industrial Engineering International
 
@@ -512,13 +566,74 @@ N/A
 N/A
 
 
-### Mathematical Problems in Engineering
 
-number of reviews completed: 1
+
+
+### International Journal of Production Research
+
+number of reviews completed: 13
 
 N/A
 
 N/A
+
+
+
+
+### Journal of Heuristics
+
+number of reviews completed: 5
+
+N/A
+
+N/A
+
+
+
+
+
+
+### Applied Soft Computing
+
+number of reviews completed: 4
+
+N/A
+
+N/A
+
+
+
+### European Journal of Operational Research
+
+number of reviews completed: 3
+
+N/A
+
+N/A
+
+
+
+
+### Computers and Industrial Engineering
+
+number of reviews completed: 3
+
+N/A
+
+N/A
+
+
+
+
+###  Journal of Industrial and Production Engineering
+
+number of reviews completed: 3
+
+N/A
+
+N/A
+
+
 
 ### Swarm and Evolutionary Computation
 
@@ -529,13 +644,41 @@ N/A
 N/A
 
 
-### European Journal of Operational Research
+
+### Expert Systems with Applications
 
 number of reviews completed: 1
 
 N/A
 
 N/A
+
+
+
+### Computers and Operations Research
+
+number of reviews completed: 1
+
+N/A
+
+N/A
+
+
+
+
+
+
+### Mathematical Problems in Engineering
+
+number of reviews completed: 1
+
+N/A
+
+N/A
+
+
+
+
 
 Awards {data-icon=award}
 -------------------------------------------------------------
